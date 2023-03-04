@@ -1,0 +1,179 @@
+{
+  "main": {
+    "id": "22a8ff2634740f2b",
+    "type": "split",
+    "children": [
+      {
+        "id": "9cb1f16e49203cc1",
+        "type": "tabs",
+        "dimension": 21.57039711191336,
+        "children": [
+          {
+            "id": "a9c02c6f3c3737e6",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SUMMARY.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true
+            }
+          }
+        ]
+      },
+      {
+        "id": "9ff2d26ed01809b1",
+        "type": "tabs",
+        "dimension": 78.42960288808665,
+        "children": [
+          {
+            "id": "0b80fe8e999927e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "burp-suite.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6bfc8a24f153a5da",
+    "type": "split",
+    "children": [
+      {
+        "id": "c2dbb3ea41ff383e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4285976feb43b2d7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a6c717525e9ad5c4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "859d025daf7d4cac",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "496f7ed0270f4004",
+    "type": "split",
+    "children": [
+      {
+        "id": "ddbeba8a0162eda9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ae3ad107de1f843",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "burp-suite.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "763c2f7d8da15833",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "burp-suite.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "638a647d83461e5a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6c75e874b132a3fc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "burp-suite.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "0b80fe8e999927e3",
+  "lastOpenFiles": [
+    "SUMMARY.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "reversing/cryptographic-algorithms/README.md",
+    "tr-069.md"
+  ]
+}

