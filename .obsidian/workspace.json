@@ -6,7 +6,7 @@
       {
         "id": "3b5a3f0b72a420a2",
         "type": "tabs",
-        "dimension": 31.543321299638986,
+        "dimension": 31.40794223826715,
         "children": [
           {
             "id": "a9c02c6f3c3737e6",
@@ -27,7 +27,7 @@
       {
         "id": "9cb1f16e49203cc1",
         "type": "tabs",
-        "dimension": 68.45667870036101,
+        "dimension": 68.59205776173285,
         "children": [
           {
             "id": "0def5f920a486e13",
@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ctf-write-ups/try-hack-me/pickle-rick.md",
+                "file": "cryptography/certificates.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ctf-write-ups/try-hack-me/pickle-rick.md",
+                "file": "cryptography/certificates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ctf-write-ups/try-hack-me/pickle-rick.md",
+                "file": "cryptography/certificates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ctf-write-ups/try-hack-me/pickle-rick.md"
+                "file": "cryptography/certificates.md"
               }
             }
           }
@@ -170,8 +170,10 @@
   },
   "active": "0def5f920a486e13",
   "lastOpenFiles": [
-    "ctf-write-ups/try-hack-me/hc0n-christmas-ctf-2019.md",
+    "ctf-write-ups/challenge-0521.intigriti.io.md",
     "SUMMARY.md",
+    "ctf-write-ups/try-hack-me/pickle-rick.md",
+    "ctf-write-ups/try-hack-me/hc0n-christmas-ctf-2019.md",
     "ctf-write-ups/try-hack-me/README.md",
     "generic-methodologies-and-resources/external-recon-methodology/README.md",
     "generic-methodologies-and-resources/pentesting-network/README.md",

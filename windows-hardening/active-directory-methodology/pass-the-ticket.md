@@ -2,13 +2,7 @@
 
 
 
-![](<../.gitbook/assets/image (9) (1) (2).png>)
 
-\
-Use [**Trickest**](https://trickest.io/) to easily build and **automate workflows** powered by the world's **most advanced** community tools.\
-Get Access Today:
-
-{% embed url="https://trickest.com/?utm_campaign=hacktrics&utm_medium=banner&utm_source=hacktricks" %}
 
 ## Pass The Ticket (PTT)
 
@@ -55,12 +49,6 @@ klist #List tickets in cache to cehck that mimikatz has loaded the ticket
 
 * [https://www.tarlogic.com/blog/how-to-attack-kerberos/](https://www.tarlogic.com/blog/how-to-attack-kerberos/)
 
-![](<../.gitbook/assets/image (9) (1) (2).png>)
 
-\
-Use [**Trickest**](https://trickest.io/) to easily build and **automate workflows** powered by the world's **most advanced** community tools.\
-Get Access Today:
-
-{% embed url="https://trickest.com/?utm_campaign=hacktrics&utm_medium=banner&utm_source=hacktricks" %}
 
 

@@ -67,13 +67,7 @@ python3 cupp.py -h
 * [**https://github.com/google/fuzzing/tree/master/dictionaries**](https://github.com/carlospolop/hacktricks/tree/95b16dc7eb952272459fc877e4c9d0777d746a16/google/fuzzing/tree/master/dictionaries/README.md)
 * [**https://crackstation.net/crackstation-wordlist-password-cracking-dictionary.htm**](https://crackstation.net/crackstation-wordlist-password-cracking-dictionary.htm)
 
-![](<../.gitbook/assets/image (9) (1) (2).png>)
 
-\
-Use [**Trickest**](https://trickest.io/) to easily build and **automate workflows** powered by the world's **most advanced** community tools.\
-Get Access Today:
-
-{% embed url="https://trickest.com/?utm_campaign=hacktrics&utm_medium=banner&utm_source=hacktricks" %}
 
 ## Services
 
@@ -423,13 +417,7 @@ set PASS_FILE /usr/share/metasploit-framework/data/wordlists/passwords.lst
 crackmapexec winrm <IP> -d <Domain Name> -u usernames.txt -p passwords.txt
 ```
 
-![](<../.gitbook/assets/image (9) (1) (2).png>)
 
-\
-Use [**Trickest**](https://trickest.io/) to easily build and **automate workflows** powered by the world's **most advanced** community tools.\
-Get Access Today:
-
-{% embed url="https://trickest.com/?utm_campaign=hacktrics&utm_medium=banner&utm_source=hacktricks" %}
 
 ## Local
 
@@ -625,13 +613,7 @@ zip -r file.xls .
 crackpkcs12 -d /usr/share/wordlists/rockyou.txt ./cert.pfx
 ```
 
-![](<../.gitbook/assets/image (9) (1) (2).png>)
 
-\
-Use [**Trickest**](https://trickest.io/) to easily build and **automate workflows** powered by the world's **most advanced** community tools.\
-Get Access Today:
-
-{% embed url="https://trickest.com/?utm_campaign=hacktrics&utm_medium=banner&utm_source=hacktricks" %}
 
 ## Tools
 
@@ -776,10 +758,4 @@ Cracking Common Application Hashes
 
 
 
-![](<../.gitbook/assets/image (9) (1) (2).png>)
 
-\
-Use [**Trickest**](https://trickest.io/) to easily build and **automate workflows** powered by the world's **most advanced** community tools.\
-Get Access Today:
-
-{% embed url="https://trickest.com/?utm_campaign=hacktrics&utm_medium=banner&utm_source=hacktricks" %}
