@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "burp-suite.md",
+                "file": "generic-methodologies-and-resources/external-recon-methodology/github-leaked-secrets.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "burp-suite.md",
+                "file": "generic-methodologies-and-resources/external-recon-methodology/github-leaked-secrets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "burp-suite.md",
+                "file": "generic-methodologies-and-resources/external-recon-methodology/github-leaked-secrets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "burp-suite.md"
+                "file": "generic-methodologies-and-resources/external-recon-methodology/github-leaked-secrets.md"
               }
             }
           }
@@ -168,9 +168,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4285976feb43b2d7",
+  "active": "0b80fe8e999927e3",
   "lastOpenFiles": [
     "SUMMARY.md",
+    "burp-suite.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "reversing/cryptographic-algorithms/README.md",
