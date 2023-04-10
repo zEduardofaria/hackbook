@@ -8,6 +8,8 @@
 
 ## 🤩 Generic Methodologies & Resources
 
+* [Web Recon](generic-methodologies-and-resources/web-recon)
+* [Desec Methodology](generic-methodologies-and-resources/desec-methodology.md)
 * [Pentesting Methodology](generic-methodologies-and-resources/pentesting-methodology.md)
 * [External Recon Methodology](generic-methodologies-and-resources/external-recon-methodology/README.md)
   * [Github Dorks & Leaks](generic-methodologies-and-resources/external-recon-methodology/github-leaked-secrets.md)
@@ -29,6 +31,7 @@
   * [Detecting Phishing](generic-methodologies-and-resources/phishing-methodology/detecting-phising.md)
   * [Phishing Files & Documents](generic-methodologies-and-resources/phishing-methodology/phishing-documents.md)
 * [Basic Forensic Methodology](forensics/basic-forensic-methodology/README.md)
+  * [Log Analysis](forensics/basic-forensic-methodology/log-analysis.md)
   * [Baseline Monitoring](forensics/basic-forensic-methodology/file-integrity-monitoring.md)
   * [Anti-Forensic Techniques](forensics/basic-forensic-methodology/anti-forensic-techniques.md)
   * [Docker Forensics](forensics/basic-forensic-methodology/docker-forensics.md)

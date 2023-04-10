@@ -6,7 +6,7 @@
       {
         "id": "3b5a3f0b72a420a2",
         "type": "tabs",
-        "dimension": 31.40794223826715,
+        "dimension": 40.4744787922358,
         "children": [
           {
             "id": "a9c02c6f3c3737e6",
@@ -27,7 +27,7 @@
       {
         "id": "9cb1f16e49203cc1",
         "type": "tabs",
-        "dimension": 68.59205776173285,
+        "dimension": 59.5255212077642,
         "children": [
           {
             "id": "0def5f920a486e13",
@@ -35,8 +35,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cryptography/certificates.md",
-                "mode": "source",
+                "file": "generic-methodologies-and-resources/desec-methodology.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -91,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 292.5
   },
   "right": {
     "id": "496f7ed0270f4004",
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cryptography/certificates.md",
+                "file": "SUMMARY.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cryptography/certificates.md",
+                "file": "SUMMARY.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cryptography/certificates.md"
+                "file": "SUMMARY.md"
               }
             }
           }
@@ -168,10 +168,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0def5f920a486e13",
+  "active": "a9c02c6f3c3737e6",
   "lastOpenFiles": [
-    "ctf-write-ups/challenge-0521.intigriti.io.md",
+    "generic-methodologies-and-resources/desec-methodology.md",
     "SUMMARY.md",
+    "forensics/basic-forensic-methodology/log-analysis.md",
+    "generic-methodologies-and-resources/web-recon.md",
+    "cryptography/certificates.md",
+    "ctf-write-ups/challenge-0521.intigriti.io.md",
     "ctf-write-ups/try-hack-me/pickle-rick.md",
     "ctf-write-ups/try-hack-me/hc0n-christmas-ctf-2019.md",
     "ctf-write-ups/try-hack-me/README.md",
