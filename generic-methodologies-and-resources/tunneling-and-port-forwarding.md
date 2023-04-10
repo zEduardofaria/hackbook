@@ -2,7 +2,7 @@
 
 <details>
 
-<summary><strong><a href="https://www.twitch.tv/hacktricks_live/schedule">🎙️ HackTricks LIVE Twitch</a> Wednesdays 5.30pm (UTC) 🎙️ - <a href="https://www.youtube.com/@hacktricks_LIVE">🎥 Youtube 🎥</a></strong></summary>
+<summary><a href="https://cloud.hacktricks.xyz/pentesting-cloud/pentesting-cloud-methodology"><strong>☁️ HackTricks Cloud ☁️</strong></a><a href="https://twitter.com/carlospolopm"><strong>🐦 Twitter 🐦</strong></a> - <a href="https://www.twitch.tv/hacktricks_live/schedule"><strong>🎙️ Twitch 🎙️</strong></a> - <a href="https://www.youtube.com/@hacktricks_LIVE"><strong>🎥 Youtube 🎥</strong></a></summary>
 
 * Do you work in a **cybersecurity company**? Do you want to see your **company advertised in HackTricks**? or do you want to have access to the **latest version of the PEASS or download HackTricks in PDF**? Check the [**SUBSCRIPTION PLANS**](https://github.com/sponsors/carlospolop)!
 * Discover [**The PEASS Family**](https://opensea.io/collection/the-peass-family), our collection of exclusive [**NFTs**](https://opensea.io/collection/the-peass-family)
@@ -534,6 +534,78 @@ ssh -p 2222 -l user 127.0.0.1
 ssh -D 9050 -p 2222 -l user 127.0.0.1
 ```
 
+## ngrok
+
+**[ngrok](https://ngrok.com/) is a tool to expose solutions to Internet in one command line.**  
+*Exposition URI are like:* **UID.ngrok.io**
+
+### Installation
+
+- Create an account: https://ngrok.com/signup
+- Client download:
+```bash
+tar xvzf ~/Downloads/ngrok-v3-stable-linux-amd64.tgz -C /usr/local/bin
+chmod a+x ./ngrok
+# Init configuration, with your token
+./ngrok config edit
+```
+
+### Basic usages
+
+**Documentation:** [https://ngrok.com/docs/getting-started/](https://ngrok.com/docs/getting-started/).
+
+*It is also possible to add authentication and TLS, if necessary.*
+
+#### Tunneling TCP
+
+```bash
+# Pointing to 0.0.0.0:4444 
+./ngrok tcp 4444
+# Example of resulting link: 0.tcp.ngrok.io:12345
+# Listen (example): nc -nvlp 4444
+# Remote connect (example): nc $(dig +short 0.tcp.ngrok.io) 12345
+```
+
+#### Exposing files with HTTP
+
+```bash
+./ngrok http file:///tmp/httpbin/
+# Example of resulting link: https://abcd-1-2-3-4.ngrok.io/
+```
+
+#### Sniffing HTTP calls
+
+*Useful for XSS,SSRF,SSTI ...*  
+Directly from stdout or in the HTTP interface [http://127.0.0.1:4040](http://127.0.0.1:4000).
+
+#### Tunneling internal HTTP service
+
+```bash
+./ngrok http localhost:8080 --host-header=rewrite
+# Example of resulting link: https://abcd-1-2-3-4.ngrok.io/
+# With basic auth
+./ngrok http localhost:8080 --host-header=rewrite --auth="myuser:mysuperpassword"
+```
+
+#### ngrok.yaml simple configuration example
+
+It opens 3 tunnels:
+- 2 TCP
+- 1 HTTP with static files exposition from /tmp/httpbin/
+
+```yaml
+tunnels:
+  mytcp:
+    addr: 4444
+    proto: tcp
+  anothertcp:
+    addr: 5555
+    proto: tcp
+  httpstatic:
+    proto: http
+    addr: file:///tmp/httpbin/
+```
+
 ## Other tools to check
 
 * [https://github.com/securesocketfunneling/ssf](https://github.com/securesocketfunneling/ssf)
@@ -541,7 +613,7 @@ ssh -D 9050 -p 2222 -l user 127.0.0.1
 
 <details>
 
-<summary><strong><a href="https://www.twitch.tv/hacktricks_live/schedule">🎙️ HackTricks LIVE Twitch</a> Wednesdays 5.30pm (UTC) 🎙️ - <a href="https://www.youtube.com/@hacktricks_LIVE">🎥 Youtube 🎥</a></strong></summary>
+<summary><a href="https://cloud.hacktricks.xyz/pentesting-cloud/pentesting-cloud-methodology"><strong>☁️ HackTricks Cloud ☁️</strong></a><a href="https://twitter.com/carlospolopm"><strong>🐦 Twitter 🐦</strong></a> - <a href="https://www.twitch.tv/hacktricks_live/schedule"><strong>🎙️ Twitch 🎙️</strong></a> - <a href="https://www.youtube.com/@hacktricks_LIVE"><strong>🎥 Youtube 🎥</strong></a></summary>
 
 * Do you work in a **cybersecurity company**? Do you want to see your **company advertised in HackTricks**? or do you want to have access to the **latest version of the PEASS or download HackTricks in PDF**? Check the [**SUBSCRIPTION PLANS**](https://github.com/sponsors/carlospolop)!
 * Discover [**The PEASS Family**](https://opensea.io/collection/the-peass-family), our collection of exclusive [**NFTs**](https://opensea.io/collection/the-peass-family)
