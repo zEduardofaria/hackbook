@@ -6,7 +6,7 @@
       {
         "id": "3b5a3f0b72a420a2",
         "type": "tabs",
-        "dimension": 40.4744787922358,
+        "dimension": 39.11516853932584,
         "children": [
           {
             "id": "a9c02c6f3c3737e6",
@@ -25,18 +25,18 @@
         ]
       },
       {
-        "id": "9cb1f16e49203cc1",
+        "id": "10c3b9f527d616ac",
         "type": "tabs",
-        "dimension": 59.5255212077642,
+        "dimension": 60.884831460674164,
         "children": [
           {
-            "id": "0def5f920a486e13",
+            "id": "8a4b39e173b15aac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "generic-methodologies-and-resources/desec-methodology.md",
-                "mode": "preview",
+                "file": "forensics/basic-forensic-methodology/pcap-inspection/wireshark-tricks.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -91,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5
+    "width": 260.5
   },
   "right": {
     "id": "496f7ed0270f4004",
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SUMMARY.md",
+                "file": "forensics/basic-forensic-methodology/pcap-inspection/wireshark-tricks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SUMMARY.md",
+                "file": "forensics/basic-forensic-methodology/pcap-inspection/wireshark-tricks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SUMMARY.md"
+                "file": "forensics/basic-forensic-methodology/pcap-inspection/wireshark-tricks.md"
               }
             }
           }
@@ -168,12 +168,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a9c02c6f3c3737e6",
+  "active": "8a4b39e173b15aac",
   "lastOpenFiles": [
-    "generic-methodologies-and-resources/desec-methodology.md",
     "SUMMARY.md",
-    "forensics/basic-forensic-methodology/log-analysis.md",
+    "Pasted image 20230406094512.png",
+    "forensics/basic-forensic-methodology/pcap-inspection/wireshark-tricks.md",
+    "forensics/basic-forensic-methodology/specific-software-file-type-tricks/README.md",
+    "Pasted image 20230309100046.png",
+    "Pasted image 20230406094521.png",
+    "Pasted image 20230406094534.png",
+    "generic-methodologies-and-resources/desec-methodology.md",
     "generic-methodologies-and-resources/web-recon.md",
+    "forensics/basic-forensic-methodology/log-analysis.md",
     "cryptography/certificates.md",
     "ctf-write-ups/challenge-0521.intigriti.io.md",
     "ctf-write-ups/try-hack-me/pickle-rick.md",
