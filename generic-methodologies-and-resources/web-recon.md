@@ -1,3 +1,4 @@
+rengine
 # Web Recon flow
 
 ## Subdomain
@@ -59,3 +60,10 @@ Com o subfinder faz o discovery subdomínios, depois o httpx valida se o subdomi
 ```bash
 subfinder -d mercadolivre.com.br -silent | httpx -silent | gau
 ```
+
+Com o paramspider pegamos subdomínios conhecidos que tenha parâmetros sendo utilizados, e o `kxss` testa cada parâmetro
+
+```bash
+python3 paramspider.py -d testphp.vulnweb.com | kxss
+```
+
