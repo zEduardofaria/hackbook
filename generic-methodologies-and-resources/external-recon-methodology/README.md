@@ -38,6 +38,25 @@ amass intel -org tesla
 amass intel -asn 8911,50313,394161
 ```
 
+Also, [**BBOT**](https://github.com/blacklanternsecurity/bbot)**'s** subdomain enumeration automatically aggregates and summarizes ASNs at the end of the scan.
+
+```bash
+bbot -t tesla.com -f subdomain-enum
+...
+[INFO] bbot.modules.asn: +----------+---------------------+--------------+----------------+----------------------------+-----------+
+[INFO] bbot.modules.asn: | AS394161 | 8.244.131.0/24      | 5            | TESLA          | Tesla Motors, Inc.         | US        |
+[INFO] bbot.modules.asn: +----------+---------------------+--------------+----------------+----------------------------+-----------+
+[INFO] bbot.modules.asn: | AS16509  | 54.148.0.0/15       | 4            | AMAZON-02      | Amazon.com, Inc.           | US        |
+[INFO] bbot.modules.asn: +----------+---------------------+--------------+----------------+----------------------------+-----------+
+[INFO] bbot.modules.asn: | AS394161 | 8.45.124.0/24       | 3            | TESLA          | Tesla Motors, Inc.         | US        |
+[INFO] bbot.modules.asn: +----------+---------------------+--------------+----------------+----------------------------+-----------+
+[INFO] bbot.modules.asn: | AS3356   | 8.32.0.0/12         | 1            | LEVEL3         | Level 3 Parent, LLC        | US        |
+[INFO] bbot.modules.asn: +----------+---------------------+--------------+----------------+----------------------------+-----------+
+[INFO] bbot.modules.asn: | AS3356   | 8.0.0.0/9           | 1            | LEVEL3         | Level 3 Parent, LLC        | US        |
+[INFO] bbot.modules.asn: +----------+---------------------+--------------+----------------+----------------------------+-----------+
+
+```
+
 You can find the IP ranges of an organisation also using [http://asnlookup.com/](http://asnlookup.com) (it has free API).\
 You can fins the IP and ASN of a domain using [http://ipv4info.com/](http://ipv4info.com).
 
@@ -94,7 +113,7 @@ For example, if you see the same **Google Analytics ID** or the same **Adsense I
 
 There are some pages and tools that let you search by these trackers and more:
 
-* ****[**Udon**](https://github.com/dhn/udon)****
+* [**Udon**](https://github.com/dhn/udon)
 * [**BuiltWith**](https://builtwith.com)
 * [**Sitesleuth**](https://www.sitesleuth.io)
 * [**Publicwww**](https://publicwww.com)
@@ -150,6 +169,12 @@ It's common to have a cron job such as
 to renew the all the domain certificates on the server. This means that even if the CA used for this doesn't set the time it was generated in the Validity time, it's possible to **find domains belonging to the same company in the certificate transparency logs**.\
 Check out this [**writeup for more information**](https://swarm.ptsecurity.com/discovering-domains-via-a-time-correlation-attack/).
 
+### **Passive Takeover**
+
+Apparently is common for people to assign subdomains to IPs that belongs to cloud providers and at some point **lose that IP address but forget about removing the DNS record**. Therefore, just **spawning a VM** in a cloud (like Digital Ocean) you will be actually **taking over some subdomains(s)**.
+
+[**This post**](https://kmsec.uk/blog/passive-takeover/) explains a store about it and propose a script that **spawns a VM in DigitalOcean**, **gets** the **IPv4** of the new machine, and **searches in Virustotal for subdomain records** pointing to it.
+
 ### **Other ways**
 
 **Note that you can use this technique to discover more domain names every time you find a new domain.**
@@ -189,9 +214,20 @@ dnsrecon -a -d tesla.com
 
 ### **OSINT**
 
-The fastest way to obtain a lot of subdomains is search in external sources. I'm not going to discuss which sources are the bests and how to use them, but you can find here several utilities: [https://pentester.land/cheatsheets/2018/11/14/subdomains-enumeration-cheatsheet.html](https://pentester.land/cheatsheets/2018/11/14/subdomains-enumeration-cheatsheet.html)
+The fastest way to obtain a lot of subdomains is search in external sources. The most used **tools** are the following ones (for better results configure the API keys):
 
-The most used **tools** are the following ones (for better results configure the API keys):
+* [**BBOT**](https://github.com/blacklanternsecurity/bbot)
+
+```bash
+# subdomains
+bbot -t tesla.com -f subdomain-enum
+
+# subdomains (passive only)
+bbot -t tesla.com -f subdomain-enum -rf passive
+
+# subdomains + port scan + web screenshots
+bbot -t tesla.com -f subdomain-enum -m naabu gowitness -n my_scan -o .
+```
 
 * [**Amass**](https://github.com/OWASP/Amass)
 
@@ -323,6 +359,8 @@ python3 censys-subdomain-finder.py tesla.com
 * [**chaos.projectdiscovery.io**](https://chaos.projectdiscovery.io/#/)
 
 This project offers for **free all the subdomains related to bug-bounty programs**. You can access this data also using [chaospy](https://github.com/dr-0x0x/chaospy) or even access the scope used by this project [https://github.com/projectdiscovery/chaos-public-program-list](https://github.com/projectdiscovery/chaos-public-program-list)
+
+You can find a **comparison** of many of these tools here: [https://blog.blacklanternsecurity.com/p/subdomain-enumeration-tool-face-off](https://blog.blacklanternsecurity.com/p/subdomain-enumeration-tool-face-off)
 
 ### **DNS Brute force**
 

