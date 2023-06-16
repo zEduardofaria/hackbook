@@ -6,7 +6,7 @@
       {
         "id": "3b5a3f0b72a420a2",
         "type": "tabs",
-        "dimension": 28.736089030206678,
+        "dimension": 28.883495145631063,
         "children": [
           {
             "id": "a9c02c6f3c3737e6",
@@ -27,21 +27,30 @@
       {
         "id": "8aa7029ce830be84",
         "type": "tabs",
-        "dimension": 71.26391096979332,
+        "dimension": 71.11650485436893,
         "children": [
           {
             "id": "b5cc214f7c9f2b7e",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "34674666f4a31909",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "linux-hardening/privilege-escalation/docker-breakout/abusing-docker-socket-for-privilege-escalation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,6 +95,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "f6fa2f12c64d9ee3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ],
         "currentTab": 2
@@ -109,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "linux-hardening/privilege-escalation/docker-breakout/abusing-docker-socket-for-privilege-escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "linux-hardening/privilege-escalation/docker-breakout/abusing-docker-socket-for-privilege-escalation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "linux-hardening/privilege-escalation/docker-breakout/abusing-docker-socket-for-privilege-escalation.md"
               }
             }
           }
@@ -170,8 +187,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b5cc214f7c9f2b7e",
+  "active": "34674666f4a31909",
   "lastOpenFiles": [
+    "SUMMARY.md",
+    "generic-methodologies-and-resources/desec-methodology.md",
+    "cryptography/crypto-ctfs-tricks.md",
+    "cryptography/identifying-hashes.md",
+    "cryptography/certificates.md",
+    "reversing/cryptographic-algorithms/unpacking-binaries.md",
+    "reversing/cryptographic-algorithms/README.md",
+    "generic-methodologies-and-resources/python/bruteforce-hash-few-chars.md",
+    "generic-methodologies-and-resources/python/bypass-python-sandboxes/output-searching-python-internals.md",
+    "README.md",
     "welcome/generic-methodologies-and-resources/python/bypass-python-sandboxes/load_name-load_const-opcode-oob-read.md",
     "welcome/generic-methodologies-and-resources/python/bypass-python-sandboxes/README.md",
     "welcome/generic-methodologies-and-resources/python/bypass-python-sandboxes/output-searching-python-internals.md",
@@ -189,16 +216,6 @@
     "welcome/generic-methodologies-and-resources/python/class-pollution-pythons-prototype-pollution.md",
     "welcome/generic-methodologies-and-resources/python/bypass-python-sandboxes",
     "welcome/generic-methodologies-and-resources/python/bruteforce-hash-few-chars.md",
-    "welcome/generic-methodologies-and-resources/python/basic-python.md",
-    "welcome/generic-methodologies-and-resources/phishing-methodology/README.md",
-    "welcome/generic-methodologies-and-resources/phishing-methodology/phishing-documents.md",
-    "welcome/generic-methodologies-and-resources/phishing-methodology/detecting-phising.md",
-    "welcome/generic-methodologies-and-resources/phishing-methodology/clone-a-website.md",
-    "welcome/generic-methodologies-and-resources/pentesting-wifi/README.md",
-    "welcome/generic-methodologies-and-resources/pentesting-wifi/evil-twin-eap-tls.md",
-    "welcome/generic-methodologies-and-resources/pentesting-network/spoofing-ssdp-and-upnp-devices.md",
-    "welcome/generic-methodologies-and-resources/pentesting-network/spoofing-llmnr-nbt-ns-mdns-dns-and-wpad-and-relay-attacks.md",
-    "welcome/generic-methodologies-and-resources/pentesting-network/README.md",
     "welcome/generic-methodologies-and-resources/basic-forensic-methodology/pcap-inspection",
     "welcome/generic-methodologies-and-resources/basic-forensic-methodology/memory-dump-analysis",
     "welcome/generic-methodologies-and-resources/shells",
