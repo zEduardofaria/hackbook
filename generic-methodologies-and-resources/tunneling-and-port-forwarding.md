@@ -4,9 +4,7 @@
 
 ## Nmap tip
 
-{% hint style="warning" %}
 **ICMP** and **SYN** scans cannot be tunnelled through socks proxies, so we must **disable ping discovery** (`-Pn`) and specify **TCP scans** (`-sT`) for this to work.
-{% endhint %}
 
 ## **Bash**
 

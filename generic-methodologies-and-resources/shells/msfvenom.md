@@ -1,19 +1,5 @@
 # MSFVenom - CheatSheet
 
- 
-
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
-
-[**Follow HackenProof**](https://bit.ly/3xrrDrL) **to learn more about web3 bugs**
-
-🐞 Read web3 bug tutorials
-
-🔔 Get notified about new bug bounties
-
-💬 Participate in community discussions
-
-
-
 `msfvenom -p <PAYLOAD> -e <ENCODER> -f <FORMAT> -i <ENCODE COUNT> LHOST=<IP>`
 
 One can also use the `-a` to specify the architecture or the `--platform`

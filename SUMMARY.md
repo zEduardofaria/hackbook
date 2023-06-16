@@ -2,8 +2,6 @@
 
 ## 👾 Welcome!
 
-* [HackTricks](README.md)
-* [About the author](welcome/about-the-author.md)
 * [Getting Started in Hacking](welcome/getting-started-in-hacking.md)
 
 ## 🤩 Generic Methodologies & Resources
@@ -13,8 +11,12 @@
 * [Pentesting Methodology](generic-methodologies-and-resources/pentesting-methodology.md)
 * [External Recon Methodology](generic-methodologies-and-resources/external-recon-methodology/README.md)
   * [Github Dorks & Leaks](generic-methodologies-and-resources/external-recon-methodology/github-leaked-secrets.md)
+  * [Google Dorking](generic-methodologies-and-resources/external-recon-methodology/google-dorking.md)
+  * [whois](generic-methodologies-and-resources/external-recon-methodology/whois.md)
+  * [Ip Search](generic-methodologies-and-resources/external-recon-methodology/ip-search.md)
 * [Pentesting Network](generic-methodologies-and-resources/pentesting-network/README.md)
   * [DHCPv6](generic-methodologies-and-resources/pentesting-network/dhcpv6.md)
+  * [Netcat](generic-methodologies-and-resources/pentesting-network/netcat.md)
   * [EIGRP Attacks](generic-methodologies-and-resources/pentesting-network/eigrp-attacks.md)
   * [GLBP & HSRP Attacks](generic-methodologies-and-resources/pentesting-network/glbp-and-hsrp-attacks.md)
   * [IDS and IPS Evasion](generic-methodologies-and-resources/pentesting-network/ids-evasion.md)
@@ -24,6 +26,13 @@
   * [Pentesting IPv6](generic-methodologies-and-resources/pentesting-network/pentesting-ipv6.md)
   * [Spoofing LLMNR, NBT-NS, mDNS/DNS and WPAD and Relay Attacks](generic-methodologies-and-resources/pentesting-network/spoofing-llmnr-nbt-ns-mdns-dns-and-wpad-and-relay-attacks.md)
   * [Spoofing SSDP and UPnP Devices with EvilSSDP](generic-methodologies-and-resources/pentesting-network/spoofing-ssdp-and-upnp-devices.md)
+  * [Shodan](generic-methodologies-and-resources/pentesting-network/shodan.md)
+  * [DNS search](generic-methodologies-and-resources/pentesting-network/dns.md)
+  * [SPF Send policy Framework](generic-methodologies-and-resources/pentesting-network/spf.md)
+  * [Mapping network route](generic-methodologies-and-resources/pentesting-network/mapping-network-route.md)
+  * [Internal scan with ARP protocol](generic-methodologies-and-resources/pentesting-network/internal-scan-with-arp-protocol.md)
+  * [Portscan](generic-methodologies-and-resources/pentesting-network/portscan.md)
+  * [Bypass firewalls](generic-methodologies-and-resources/pentesting-network/bypass-firewall.md)
 * [Pentesting Wifi](generic-methodologies-and-resources/pentesting-wifi/README.md)
   * [Evil Twin EAP-TLS](generic-methodologies-and-resources/pentesting-wifi/evil-twin-eap-tls.md)
 * [Phishing Methodology](generic-methodologies-and-resources/phishing-methodology/README.md)
@@ -79,6 +88,7 @@
 * [Search Exploits](generic-methodologies-and-resources/search-exploits.md)
 * [Shells (Linux, Windows, MSFVenom)](generic-methodologies-and-resources/shells/README.md)
   * [MSFVenom - CheatSheet](generic-methodologies-and-resources/shells/msfvenom.md)
+  * [Metasploit](generic-methodologies-and-resources/shells/metasploit.md)
   * [Shells - Windows](generic-methodologies-and-resources/shells/windows.md)
   * [Shells - Linux](generic-methodologies-and-resources/shells/linux.md)
   * [Full TTYs](generic-methodologies-and-resources/shells/full-ttys.md)
@@ -519,7 +529,7 @@
 * [HTTP Response Smuggling / Desync](pentesting-web/http-response-smuggling-desync.md)
 * [Upgrade Header Smuggling](pentesting-web/h2c-smuggling.md)
 * [hop-by-hop headers](pentesting-web/abusing-hop-by-hop-headers.md)
-* [IDOR](pentesting-web/idor.md)
+* [IDOR](IDOR.md)
 * [Integer Overflow](pentesting-web/integer-overflow.md)
 * [JWT Vulnerabilities (Json Web Tokens)](pentesting-web/hacking-jwt-json-web-tokens.md)
 * [LDAP Injection](pentesting-web/ldap-injection.md)

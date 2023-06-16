@@ -1,9 +1,4 @@
 # Wireshark tricks
-
-## Wireshark tricks
-
-
-
 ## Improve your Wireshark skills
 
 ### Tutorials
@@ -14,6 +9,91 @@ The following tutorials are amazing to learn some cool basic tricks:
 * [https://unit42.paloaltonetworks.com/using-wireshark-display-filter-expressions/](https://unit42.paloaltonetworks.com/using-wireshark-display-filter-expressions/)
 * [https://unit42.paloaltonetworks.com/using-wireshark-identifying-hosts-and-users/](https://unit42.paloaltonetworks.com/using-wireshark-identifying-hosts-and-users/)
 * [https://unit42.paloaltonetworks.com/using-wireshark-exporting-objects-from-a-pcap/](https://unit42.paloaltonetworks.com/using-wireshark-exporting-objects-from-a-pcap/)
+
+### Basic Functions
+
+**Filter by protocol**
+Search only for `DNS` protocol
+![[Pasted image 20230412215055.png]]
+Search only for `http`
+![[Pasted image 20230412215456.png]]
+Search only for `tcp`
+![[Pasted image 20230412215545.png]]
+
+**Filter by request**
+
+![[Pasted image 20230412222516.png]]
+
+**Filter by ip address**
+Search for two ip address with `&&` and `ip.addr`. Could work with only one of them
+
+![[Pasted image 20230412215625.png]]
+
+Search by ip source with `ip.src`
+
+![[Pasted image 20230412215737.png]]
+
+By ip destination with `ip.dst`
+
+![[Pasted image 20230412215817.png]]
+
+By tcp port with `tcp.port`
+
+![[Pasted image 20230412215908.png]]
+
+Search for string content with `tcp contains PASS`
+
+![[Pasted image 20230412221941.png]]
+
+Same with `http.request.uri contains {word}`
+
+![[Pasted image 20230412222638.png]]
+
+#### Create filter for specific interface
+
+Select the interface you want to track
+
+![[Pasted image 20230412220235.png]]
+
+Select a capture filter for the interface you selected
+
+![[Pasted image 20230412220318.png]]
+
+#### Create filter for all interfaces
+
+Select the green flag in front of "...using this filter"
+
+![[Pasted image 20230412220827.png]]
+
+Click on `+` and create a new filter
+
+![[Pasted image 20230412220858.png]]
+
+The filter created is named `FTP` and its value is `port 21`
+
+Select it in the same green flag from before
+
+![[Pasted image 20230412220938.png]]
+
+#### Follow Requests by protocol
+
+Right click in a row, and go to `Follow [PROTOCOL]` 
+
+![[Pasted image 20230412221136.png]]
+
+![[Pasted image 20230412221222.png]]
+
+#### Find open ports
+Pode ser bom filtrar a conversa entre atacante e alvo antes disso.
+Vá para `Statistics > Conversations` 
+
+Vá para TCP e ordene por `packets`
+![[Pasted image 20230417225326.png]]
+Note que todas as portas com **mais de 2** packets estão abertas.
+#### More information
+
+https://wiki.wireshark.org/DisplayFilters
+https://wiki.wireshark.org/CaptureFilters
 
 ### Analysed Information
 
