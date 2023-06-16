@@ -9,6 +9,7 @@
 ## 🤩 Generic Methodologies & Resources
 
 * [Pentesting Methodology](generic-methodologies-and-resources/pentesting-methodology.md)
+* [Web Recon](generic-methodologies-and-resources/web-recon)
 * [External Recon Methodology](generic-methodologies-and-resources/external-recon-methodology/README.md)
   * [Github Dorks & Leaks](generic-methodologies-and-resources/external-recon-methodology/github-leaked-secrets.md)
 * [Pentesting Network](generic-methodologies-and-resources/pentesting-network/README.md)

@@ -6,7 +6,7 @@
       {
         "id": "3b5a3f0b72a420a2",
         "type": "tabs",
-        "dimension": 31.40794223826715,
+        "dimension": 28.736089030206678,
         "children": [
           {
             "id": "a9c02c6f3c3737e6",
@@ -16,7 +16,7 @@
               "type": "markdown",
               "state": {
                 "file": "SUMMARY.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "pinned": true
@@ -25,17 +25,17 @@
         ]
       },
       {
-        "id": "9cb1f16e49203cc1",
+        "id": "8aa7029ce830be84",
         "type": "tabs",
-        "dimension": 68.59205776173285,
+        "dimension": 71.26391096979332,
         "children": [
           {
-            "id": "0def5f920a486e13",
+            "id": "b5cc214f7c9f2b7e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cryptography/certificates.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,11 +87,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "496f7ed0270f4004",
@@ -107,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cryptography/certificates.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cryptography/certificates.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cryptography/certificates.md"
+                "file": "README.md"
               }
             }
           }
@@ -168,16 +170,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0def5f920a486e13",
+  "active": "b5cc214f7c9f2b7e",
   "lastOpenFiles": [
-    "ctf-write-ups/challenge-0521.intigriti.io.md",
     "SUMMARY.md",
+    "generic-methodologies-and-resources/web-recon.md",
+    "generic-methodologies-and-resources/shells/full-ttys.md",
+    "generic-methodologies-and-resources/pentesting-methodology.md",
+    "generic-methodologies-and-resources/recon/Untitled.md",
+    "generic-methodologies-and-resources/recon",
+    "generic-methodologies-and-resources/external-recon-methodology/README.md",
+    "pentesting-web/file-inclusion/phar-deserialization.md",
+    "pentesting-web/file-inclusion/lfi2rce-via-php-filters.md",
+    "pentesting-web/file-inclusion/README.md",
+    "pentesting-web/file-upload/README.md",
+    "linux-hardening/privilege-escalation/README.md",
+    "linux-hardening/linux-privilege-escalation-checklist.md",
+    "pentesting-web/file-upload/pdf-upload-xxe-and-cors-bypass.md",
+    "generic-methodologies-and-resources/tunneling-and-port-forwarding.md",
+    "cryptography/certificates.md",
+    "ctf-write-ups/challenge-0521.intigriti.io.md",
     "ctf-write-ups/try-hack-me/pickle-rick.md",
     "ctf-write-ups/try-hack-me/hc0n-christmas-ctf-2019.md",
     "ctf-write-ups/try-hack-me/README.md",
-    "generic-methodologies-and-resources/external-recon-methodology/README.md",
     "generic-methodologies-and-resources/pentesting-network/README.md",
-    "generic-methodologies-and-resources/pentesting-methodology.md",
     "generic-methodologies-and-resources/external-recon-methodology/github-leaked-secrets.md",
     "generic-methodologies-and-resources/pentesting-network/dhcpv6.md",
     "burp-suite.md",
