@@ -4,8 +4,4 @@ description: >-
   I have learnt from CTFs, real life apps, reading researches, and news. This repo started as a fork from https://book.hacktricks.xyz/ Check this out ;)
 ---
 
-## [**Pentesting Methodology**](generic-methodologies-and-resources/pentesting-methodology.md)
-
-Here you will find the **typical flow** that **you should follow when pentesting** one or more **machines**.
-
-**Click on the title to start!**
+## [**Summary**](SUMMARY.md)
