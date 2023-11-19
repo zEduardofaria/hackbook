@@ -241,6 +241,7 @@
 * [Android APK Checklist](mobile-pentesting/android-checklist.md)
 * [Android Applications Pentesting](mobile-pentesting/android-app-pentesting/README.md)
   * [Android Applications Basics](mobile-pentesting/android-app-pentesting/android-applications-basics.md)
+	  * [AndroidManifest.xml](mobile-pentesting/android-app-pentesting/android-applications-basics/android-manifest.md)
   * [Android Task Hijacking](mobile-pentesting/android-app-pentesting/android-task-hijacking.md)
   * [ADB Commands](mobile-pentesting/android-app-pentesting/adb-commands.md)
   * [APK decompilers](mobile-pentesting/android-app-pentesting/apk-decompilers.md)
@@ -724,3 +725,7 @@
 * [Online Platforms with API](online-platforms-with-api.md)
 * [Stealing Sensitive Information Disclosure from a Web](stealing-sensitive-information-disclosure-from-a-web.md)
 * [Post Exploitation](post-exploitation.md)
+
+## CONVISO Notes
+### Deploys
+* [Carrefour Deploys](Carrefour%20deploys.md)

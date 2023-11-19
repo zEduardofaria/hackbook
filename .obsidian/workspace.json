@@ -6,7 +6,7 @@
       {
         "id": "3b5a3f0b72a420a2",
         "type": "tabs",
-        "dimension": 42.799352750809064,
+        "dimension": 11.486486486486488,
         "children": [
           {
             "id": "a9c02c6f3c3737e6",
@@ -16,7 +16,7 @@
               "type": "markdown",
               "state": {
                 "file": "SUMMARY.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "pinned": true
@@ -27,7 +27,7 @@
       {
         "id": "10c3b9f527d616ac",
         "type": "tabs",
-        "dimension": 57.200647249190936,
+        "dimension": 88.51351351351352,
         "children": [
           {
             "id": "ba2818e646bfbbf4",
@@ -44,31 +44,43 @@
             }
           },
           {
-            "id": "6d17d3cb27accdf3",
+            "id": "c930f8ff0a01bca3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "network-services-pentesting/pentesting-smb.md",
+                "file": "generic-methodologies-and-resources/external-recon-methodology/google-dorking.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "96dca9302cc26a22",
+            "id": "36933da860c7521b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "network-services-pentesting/pentesting-ftp/README.md",
+                "file": "generic-methodologies-and-resources/web-recon.md",
                 "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "651887578fa998c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conviso/Carrefour deploys.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -144,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "network-services-pentesting/pentesting-smb.md",
+                "file": "conviso/Carrefour deploys.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "network-services-pentesting/pentesting-smb.md",
+                "file": "conviso/Carrefour deploys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +204,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "network-services-pentesting/pentesting-smb.md"
+                "file": "conviso/Carrefour deploys.md"
+              }
+            }
+          },
+          {
+            "id": "ebd2eaeb8338d4a3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -214,37 +236,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6d17d3cb27accdf3",
+  "active": "651887578fa998c4",
   "lastOpenFiles": [
+    "rascunho",
     "SUMMARY.md",
-    "network-services-pentesting/135-pentesting-msrpc.md",
-    "network-services-pentesting/137-138-139-pentesting-netbios.md",
-    "pentesting-web/file-inclusion/README.md",
-    "generic-methodologies-and-resources/shells/full-ttys.md",
-    "generic-methodologies-and-resources/shells/README.md",
-    "generic-methodologies-and-resources/shells/msfvenom.md",
-    "generic-methodologies-and-resources/shells/metasploit.md",
-    "Pasted image 20230611211458.png",
-    "welcome/getting-started-in-hacking.md",
-    "generic-methodologies-and-resources/pentesting-network/nmap-summary-esp.md",
-    "generic-methodologies-and-resources/search-exploits.md",
+    "conviso/Carrefour deploys.md",
     "generic-methodologies-and-resources/desec-methodology.md",
-    "network-services-pentesting/pentesting-smb.md",
-    "network-services-pentesting/1521-1522-1529-pentesting-oracle-listener/oracle-pentesting-requirements-installation.md",
-    "network-services-pentesting/pentesting-snmp/README.md",
-    "generic-methodologies-and-resources/pentesting-network/mapping-network-route.md",
-    "network-services-pentesting/pentesting-ftp/README.md",
+    "conviso",
+    "generic-methodologies-and-resources/web-recon.md",
+    "generic-methodologies-and-resources/external-recon-methodology/google-dorking.md",
     "network-services-pentesting/pentesting-ssh.md",
-    "network-services-pentesting/nfs-service-pentesting.md",
-    "network-services-pentesting/pentesting-printers/transmission-channel.md",
+    "network-services-pentesting/pentesting-smb.md",
+    "generic-methodologies-and-resources/pentesting-network/portscan.md",
+    "generic-methodologies-and-resources/pentesting-network/bypass-firewall.md",
     "network-services-pentesting/pentesting-mysql.md",
-    "windows-hardening/ntlm/README.md",
-    "network-services-pentesting/pentesting-snmp/snmp-rce.md",
-    "network-services-pentesting/pentesting-snmp/cisco-snmp.md",
+    "mobile-pentesting/android-app-pentesting/android-applications-basics.md",
+    "mobile-pentesting/android-app-pentesting/android-applications-basics/android-manifest.md",
+    "mobile-pentesting/android-app-pentesting/android-burp-suite-settings.md",
+    "mobile-pentesting/android-app-pentesting/android-applications-basics",
+    "mobile-pentesting/android-app-pentesting/README.md",
+    "mobile-pentesting/android-checklist.md",
+    "android-app-pentesting 1.md",
+    "android-app-pentesting.md",
+    "find ..md",
+    "generic-methodologies-and-resources/pentesting-network/mapping-network-route.md",
+    "pentesting-web/file-inclusion/README.md",
+    "pentesting-web/xss-cross-site-scripting/xss-tools.md",
+    "pentesting-web/xss-cross-site-scripting/README.md",
+    "pentesting-web/ssrf-server-side-request-forgery/README.md",
+    "pentesting-web/ssrf-server-side-request-forgery/url-format-bypass.md",
+    "Pasted image 20230712193602.png",
+    "pentesting-web/ssrf-server-side-request-forgery/ssrf-vulnerable-platforms.md",
+    "Pasted image 20230611211458.png",
     "Pasted image 20230607185405.png",
     "Pasted image 20230607185355.png",
-    "network-services-pentesting/pentesting-telnet.md",
-    "generic-methodologies-and-resources/brute-force.md",
     "Pasted image 20230515215017.png",
     "Untitled 1.canvas",
     "Pasted image 20230509222340.png",
@@ -252,7 +277,6 @@
     "Pasted image 20230505183340.png",
     "Pasted image 20230505183312.png",
     "Pasted image 20230505183308.png",
-    "Pasted image 20230505182340.png",
     "Untitled.canvas",
     "metodologia.pdf",
     "desec-labs"

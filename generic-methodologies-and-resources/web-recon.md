@@ -1,5 +1,6 @@
-rengine
 # Web Recon flow
+
+# Referências
 
 ## Subdomain
 
@@ -67,3 +68,49 @@ Com o paramspider pegamos subdomínios conhecidos que tenha parâmetros sendo ut
 python3 paramspider.py -d testphp.vulnweb.com | kxss
 ```
 
+# Metodologia pessoal
+
+## Subdomínios
+
+```bash
+subfinder -d target.com.br -silent | httpx -silent | gau
+```
+
+Subfinder encontrará subdomínios de forma ativa. O httpx irá validar se estes subdomínios encontrados estão funcionando. Gau analizará todos os subdomínios ativos em busca de urls. 
+Gau certamente irá encontrar vários arquivos nesta etapa
+
+## Parâmetros para cada subdomínio
+
+```bash
+paramspider -d target.com.br | kxss
+```
+
+paramspider irá buscar por parâmetros fuzzable, e o kxss irá testar se estes parâmetros são refletidos na tela.
+
+## Secret Finder
+
+```bash
+i=1; for url in $(cat js-files.txt); do python3 /Users/eduardofaria/Developer/tools/SecretFinder/SecretFinder.py -i $url -o cli > ./secretfinder/${i}.html; i=$((i+1)); done
+```
+
+secret finder buscará por chaves em cada arquivo js encontrado pelo gau.
+
+```bash
+
+```
+## Screenshoting
+
+```bash
+subfinder -d target.com.br -silent | httpx -silent | aquatone
+```
+
+Aquatone irá tirar screenshots, e além disso, mostrará tecnologias encontradas em cada subdomínio
+
+## Github Dorking
+### TruffleHog
+
+TruffleHog is a great tool for automatically discovering exposed secrets. You can simply use the following Docker run to initiate a TruffleHog scan of your target's Github.
+
+```bash
+sudo docker run -it -v "$PWD:/pwd" trufflesecurity/trufflehog:latest github --org=target-name
+```
