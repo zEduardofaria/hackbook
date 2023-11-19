@@ -1,5 +1,4 @@
 # Desec Methodology
-![[metodologia.pdf]]
 ## Análise de Logs
 [Análise de Logs](forensics/basic-forensic-methodology/log-analysis)
 [Labs](desec-labs/logs-labs)

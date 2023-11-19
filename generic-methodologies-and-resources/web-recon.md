@@ -13,7 +13,6 @@
 - github.com/Screetsec/Sudomy
 
 ### Certificados e passivos
-
 - github.com/projectdiscovery/subfinder
 - ssmate.com/certspotter
 - github.com/UnaPibaGeek/ctfr (usa o crt.sh)

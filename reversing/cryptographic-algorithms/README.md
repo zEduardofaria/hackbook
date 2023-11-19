@@ -12,7 +12,6 @@ If you ends in a code **using shift rights and lefts, xors and several arithmeti
 
 If this function is used, you can find which **algorithm is being used** checking the value of the second parameter:
 
-![](<../../.gitbook/assets/image (375) (1) (1) (1) (1).png>)
 
 Check here the table of possible algorithms and their assigned values: [https://docs.microsoft.com/en-us/windows/win32/seccrypto/alg-id](https://docs.microsoft.com/en-us/windows/win32/seccrypto/alg-id)
 
@@ -28,20 +27,13 @@ The **CryptAcquireContext** function is used to acquire a handle to a particular
 
 Initiates the hashing of a stream of data. If this function is used, you can find which **algorithm is being used** checking the value of the second parameter:
 
-![](<../../.gitbook/assets/image (376).png>)
-
-\
 Check here the table of possible algorithms and their assigned values: [https://docs.microsoft.com/en-us/windows/win32/seccrypto/alg-id](https://docs.microsoft.com/en-us/windows/win32/seccrypto/alg-id)
 
 ### Code constants
 
 Sometimes it's really easy to identify an algorithm thanks to the fact that it needs to use a special and unique value.
 
-![](<../../.gitbook/assets/image (370).png>)
-
 If you search for the first constant in Google this is what you get:
-
-![](<../../.gitbook/assets/image (371).png>)
 
 Therefore, you can assume that the decompiled function is a **sha256 calculator.**\
 You can search any of the other constants and you will obtain (probably) the same result.
@@ -50,8 +42,6 @@ You can search any of the other constants and you will obtain (probably) the sam
 
 If the code doesn't have any significant constant it may be **loading information from the .data section**.\
 You can access that data, **group the first dword** and search for it in google as we have done in the section before:
-
-![](<../../.gitbook/assets/image (372).png>)
 
 In this case, if you look for **0xA56363C6** you can find that it's related to the **tables of the AES algorithm**.
 
@@ -71,15 +61,12 @@ It's composed of 3 main parts:
 
 ### **Initialization stage/Substitution Box:** (Note the number 256 used as counter and how a 0 is written in each place of the 256 chars)
 
-![](<../../.gitbook/assets/image (377).png>)
 
 ### **Scrambling Stage:**
 
-![](<../../.gitbook/assets/image (378).png>)
 
 ### **XOR Stage:**
 
-![](<../../.gitbook/assets/image (379).png>)
 
 ## **AES (Symmetric Crypt)**
 
@@ -91,7 +78,6 @@ It's composed of 3 main parts:
 
 ### SBox constants
 
-![](<../../.gitbook/assets/image (380).png>)
 
 ## Serpent **(Symmetric Crypt)**
 
@@ -105,11 +91,7 @@ It's composed of 3 main parts:
 In the following image notice how the constant **0x9E3779B9** is used (note that this constant is also used by other crypto algorithms like **TEA** -Tiny Encryption Algorithm).\
 Also note the **size of the loop** (**132**) and the **number of XOR operations** in the **disassembly** instructions and in the **code** example:
 
-![](<../../.gitbook/assets/image (381).png>)
-
 As it was mentioned before, this code can be visualized inside any decompiler as a **very long function** as there **aren't jumps** inside of it. The decompiled code can look like the following:
-
-![](<../../.gitbook/assets/image (382).png>)
 
 Therefore, it's possible to identify this algorithm checking the **magic number** and the **initial XORs**, seeing a **very long function** and **comparing** some **instructions** of the long function **with an implementation** (like the shift left by 7 and the rotate left by 22).
 
@@ -122,8 +104,6 @@ Therefore, it's possible to identify this algorithm checking the **magic number*
 * KANAL (a crypto analyzer) fails to show hints on RSA ad it relies on constants.
 
 ### Identifying by comparisons
-
-![](<../../.gitbook/assets/image (383).png>)
 
 * In line 11 (left) there is a `+7) >> 3` which is the same as in line 35 (right): `+7) / 8`
 * Line 12 (left) is checking if `modulus_len < 0x040` and in line 36 (right) it's checking if `inputLen+11 > modulusLen`
@@ -141,13 +121,9 @@ Therefore, it's possible to identify this algorithm checking the **magic number*
 
 You can identify both of them checking the constants. Note that the sha\_init has 1 constant that MD5 doesn't have:
 
-![](<../../.gitbook/assets/image (385).png>)
-
 **MD5 Transform**
 
 Note the use of more constants
-
-![](<../../.gitbook/assets/image (253) (1) (1) (1).png>)
 
 ## CRC (hash)
 
@@ -158,11 +134,9 @@ Note the use of more constants
 
 Check **lookup table constants**:
 
-![](<../../.gitbook/assets/image (387).png>)
 
 A CRC hash algorithm looks like:
 
-![](<../../.gitbook/assets/image (386).png>)
 
 ## APLib (Compression)
 
@@ -175,10 +149,8 @@ A CRC hash algorithm looks like:
 
 The graph is quiet large:
 
-![](<../../.gitbook/assets/image (207) (2) (1).png>)
 
 Check **3 comparisons to recognise it**:
 
-![](<../../.gitbook/assets/image (384).png>)
 
 

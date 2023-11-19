@@ -6,7 +6,7 @@
       {
         "id": "3b5a3f0b72a420a2",
         "type": "tabs",
-        "dimension": 11.486486486486488,
+        "dimension": 28.883495145631063,
         "children": [
           {
             "id": "a9c02c6f3c3737e6",
@@ -25,43 +25,25 @@
         ]
       },
       {
-        "id": "10c3b9f527d616ac",
+        "id": "8aa7029ce830be84",
         "type": "tabs",
-        "dimension": 88.51351351351352,
+        "dimension": 71.11650485436893,
         "children": [
           {
-            "id": "ba2818e646bfbbf4",
+            "id": "b5cc214f7c9f2b7e",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "generic-methodologies-and-resources/desec-methodology.md",
-                "mode": "preview",
-                "source": false
-              },
-              "pinned": true
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "c930f8ff0a01bca3",
+            "id": "34674666f4a31909",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "generic-methodologies-and-resources/external-recon-methodology/google-dorking.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "36933da860c7521b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "generic-methodologies-and-resources/web-recon.md",
+                "file": "linux-hardening/privilege-escalation/docker-breakout/abusing-docker-socket-for-privilege-escalation.md",
                 "mode": "source",
                 "source": false
               }
@@ -135,7 +117,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -156,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conviso/Carrefour deploys.md",
+                "file": "linux-hardening/privilege-escalation/docker-breakout/abusing-docker-socket-for-privilege-escalation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conviso/Carrefour deploys.md",
+                "file": "linux-hardening/privilege-escalation/docker-breakout/abusing-docker-socket-for-privilege-escalation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,39 +173,20 @@
             }
           },
           {
-            "id": "d0bba1c6d11e29f1",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "75dcab9de211f092",
+            "id": "6c75e874b132a3fc",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "conviso/Carrefour deploys.md"
-              }
-            }
-          },
-          {
-            "id": "ebd2eaeb8338d4a3",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
+                "file": "linux-hardening/privilege-escalation/docker-breakout/abusing-docker-socket-for-privilege-escalation.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 448.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -236,49 +199,57 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "651887578fa998c4",
+  "active": "34674666f4a31909",
   "lastOpenFiles": [
+    "cryptography/identifying-hashes.md",
     "rascunho",
     "SUMMARY.md",
-    "conviso/Carrefour deploys.md",
     "generic-methodologies-and-resources/desec-methodology.md",
-    "conviso",
-    "generic-methodologies-and-resources/web-recon.md",
-    "generic-methodologies-and-resources/external-recon-methodology/google-dorking.md",
-    "network-services-pentesting/pentesting-ssh.md",
-    "network-services-pentesting/pentesting-smb.md",
-    "generic-methodologies-and-resources/pentesting-network/portscan.md",
-    "generic-methodologies-and-resources/pentesting-network/bypass-firewall.md",
-    "network-services-pentesting/pentesting-mysql.md",
-    "mobile-pentesting/android-app-pentesting/android-applications-basics.md",
-    "mobile-pentesting/android-app-pentesting/android-applications-basics/android-manifest.md",
-    "mobile-pentesting/android-app-pentesting/android-burp-suite-settings.md",
-    "mobile-pentesting/android-app-pentesting/android-applications-basics",
-    "mobile-pentesting/android-app-pentesting/README.md",
-    "mobile-pentesting/android-checklist.md",
-    "android-app-pentesting 1.md",
-    "android-app-pentesting.md",
-    "find ..md",
-    "generic-methodologies-and-resources/pentesting-network/mapping-network-route.md",
-    "pentesting-web/file-inclusion/README.md",
-    "pentesting-web/xss-cross-site-scripting/xss-tools.md",
-    "pentesting-web/xss-cross-site-scripting/README.md",
-    "pentesting-web/ssrf-server-side-request-forgery/README.md",
-    "pentesting-web/ssrf-server-side-request-forgery/url-format-bypass.md",
-    "Pasted image 20230712193602.png",
-    "pentesting-web/ssrf-server-side-request-forgery/ssrf-vulnerable-platforms.md",
+    "cryptography/crypto-ctfs-tricks.md",
+    "cryptography/identifying-hashes.md",
+    "cryptography/certificates.md",
+    "reversing/cryptographic-algorithms/unpacking-binaries.md",
+    "reversing/cryptographic-algorithms/README.md",
+    "generic-methodologies-and-resources/python/bruteforce-hash-few-chars.md",
+    "generic-methodologies-and-resources/python/bypass-python-sandboxes/output-searching-python-internals.md",
+    "README.md",
+    "welcome/generic-methodologies-and-resources/python/bypass-python-sandboxes/load_name-load_const-opcode-oob-read.md",
+    "welcome/generic-methodologies-and-resources/python/bypass-python-sandboxes/README.md",
+    "welcome/generic-methodologies-and-resources/python/bypass-python-sandboxes/output-searching-python-internals.md",
+    "welcome/generic-methodologies-and-resources/basic-forensic-methodology/pcap-inspection/suricata-and-iptables-cheatsheet.md",
+    "welcome/generic-methodologies-and-resources/basic-forensic-methodology/memory-dump-analysis/volatility-cheatsheet.md",
+    "welcome/generic-methodologies-and-resources/shells/windows.md",
+    "welcome/generic-methodologies-and-resources/shells/README.md",
+    "welcome/generic-methodologies-and-resources/shells/msfvenom.md",
+    "welcome/generic-methodologies-and-resources/shells/linux.md",
+    "welcome/generic-methodologies-and-resources/shells/full-ttys.md",
+    "welcome/generic-methodologies-and-resources/python/web-requests.md",
+    "welcome/generic-methodologies-and-resources/python/venv.md",
+    "welcome/generic-methodologies-and-resources/python/README.md",
+    "welcome/generic-methodologies-and-resources/python/pyscript.md",
+    "welcome/generic-methodologies-and-resources/python/class-pollution-pythons-prototype-pollution.md",
+    "welcome/generic-methodologies-and-resources/python/bypass-python-sandboxes",
+    "welcome/generic-methodologies-and-resources/python/bruteforce-hash-few-chars.md",
+    "welcome/generic-methodologies-and-resources/basic-forensic-methodology/pcap-inspection",
+    "welcome/generic-methodologies-and-resources/basic-forensic-methodology/memory-dump-analysis",
+    "welcome/generic-methodologies-and-resources/shells",
+    "welcome/generic-methodologies-and-resources/python",
+    "welcome/generic-methodologies-and-resources/phishing-methodology",
+    "welcome/generic-methodologies-and-resources/pentesting-wifi",
+    "welcome/generic-methodologies-and-resources/pentesting-network",
+    "welcome/generic-methodologies-and-resources/external-recon-methodology",
+    "welcome/generic-methodologies-and-resources/basic-forensic-methodology",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
     "Pasted image 20230611211458.png",
     "Pasted image 20230607185405.png",
     "Pasted image 20230607185355.png",
     "Pasted image 20230515215017.png",
-    "Untitled 1.canvas",
     "Pasted image 20230509222340.png",
     "Pasted image 20230508195053.png",
     "Pasted image 20230505183340.png",
     "Pasted image 20230505183312.png",
     "Pasted image 20230505183308.png",
-    "Untitled.canvas",
-    "metodologia.pdf",
-    "desec-labs"
+    "Pasted image 20230505182340.png"
   ]
 }
