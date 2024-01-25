@@ -6,10 +6,10 @@
 
 ## 🤩 Generic Methodologies & Resources
 
-* [Web Recon](generic-methodologies-and-resources/web-recon)
+* [Web Recon](recon.md)
 * [Desec Methodology](generic-methodologies-and-resources/desec-methodology.md)
 * [Pentesting Methodology](generic-methodologies-and-resources/pentesting-methodology.md)
-* [Web Recon](generic-methodologies-and-resources/web-recon)
+* [Web Recon](recon.md)
 * [External Recon Methodology](generic-methodologies-and-resources/external-recon-methodology/README.md)
   * [Github Dorks & Leaks](generic-methodologies-and-resources/external-recon-methodology/github-leaked-secrets.md)
   * [Google Dorking](generic-methodologies-and-resources/external-recon-methodology/google-dorking.md)
@@ -474,10 +474,11 @@
   * [Browser Extensions](pentesting-web/web-vulnerabilities-methodology/browser-extensions.md)
 * [Reflecting Techniques - PoCs and Polygloths CheatSheet](pentesting-web/pocs-and-polygloths-cheatsheet/README.md)
   * [Web Vulns List](pentesting-web/pocs-and-polygloths-cheatsheet/web-vulns-list.md)
+* [Javascript Deobfuscation](pentesting-web/javascript-deobfuscation.md)
 * [2FA/OTP Bypass](pentesting-web/2fa-bypass.md)
 * [Account Takeover](pentesting-web/account-takeover.md)
 * [Bypass Payment Process](pentesting-web/bypass-payment-process.md)
-* [Captcha Bypass](pentesting-web/captcha-bypass.md)
+* [Captcha Bypass](pentesting-web/ca1ptcha-bypass.md)
 * [Cache Poisoning and Cache Deception](pentesting-web/cache-deception.md)
 * [Clickjacking](pentesting-web/clickjacking.md)
 * [Client Side Template Injection (CSTI)](pentesting-web/client-side-template-injection-csti.md)
@@ -551,6 +552,7 @@
 * [Rate Limit Bypass](pentesting-web/rate-limit-bypass.md)
 * [Registration & Takeover Vulnerabilities](pentesting-web/registration-vulnerabilities.md)
 * [Regular expression Denial of Service - ReDoS](pentesting-web/regular-expression-denial-of-service-redos.md)
+* [Regular expression - Useful tips](pentesting-web/regular-expression-useful-tips.md)
 * [Reset/Forgotten Password Bypass](pentesting-web/reset-password.md)
 * [SAML Attacks](pentesting-web/saml-attacks/README.md)
   * [SAML Basics](pentesting-web/saml-attacks/saml-basics.md)
@@ -599,6 +601,7 @@
   * [Steal Info JS](pentesting-web/xss-cross-site-scripting/steal-info-js.md)
   * [XSS in Markdown](pentesting-web/xss-cross-site-scripting/xss-in-markdown.md)
   * [XSS Tools](pentesting-web/xss-cross-site-scripting/xss-tools.md)
+  * [XSS Dargling Markup Injection](pentesting-web/xss-cross-site-scripting/xss-dargling-markup-injection.md)
 * [XSSI (Cross-Site Script Inclusion)](pentesting-web/xssi-cross-site-script-inclusion.md)
 * [XS-Search/XS-Leaks](pentesting-web/xs-search.md)
   * [Connection Pool Example](pentesting-web/xs-search/connection-pool-example.md)
@@ -682,6 +685,11 @@
 * [ICMPsh](backdoors/icmpsh.md)
 * [Cobalt Strike](c2/cobalt-strike.md)
 
+## 🛠️ TOOLS - Useful examples
+* [curl](tools/curl)
+* [ffuf](tools/ffuf)
+* [amass](tools/amass)
+
 ## ✍ TODO
 
 * [Other Big References](misc/references.md)
@@ -727,6 +735,11 @@
 * [Stealing Sensitive Information Disclosure from a Web](stealing-sensitive-information-disclosure-from-a-web.md)
 * [Post Exploitation](post-exploitation.md)
 
+## Bug Bounty
+
+* [Reports for reference](bug-bounty/reports-for-reference.md)
+
 ## CONVISO Notes
 ### Deploys
 * [Carrefour Deploys](Carrefour%20deploys.md)
+* [Sidredi Região da Produção](sicredi-regiao-da-producao)
